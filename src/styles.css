@@ -2,9 +2,9 @@
 
 @layer tailwind-base, primeng, tailwind-utilities;
 @import 'primeicons/primeicons.css';
-
 @import '../node_modules/primeng/resources/themes/lara-light-blue/theme.css';
 @import '../node_modules/primeng/resources/primeng.css';
+@import '../src/assets/styles/reset.css';
 
 @layer tailwind-base {
     @tailwind base;
@@ -15,13 +15,7 @@
     @tailwind utilities;
 }
 
-@import '../src/reset.css';
 
-.p-breadcrumb {
-    background: transparent;
-    border: none;
-    color: #999;
-    font-size: 14px;
-}
+
 
 
