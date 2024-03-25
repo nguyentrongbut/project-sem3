@@ -1,10 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-  font-family: harmonia, Arial, Helvetica, sans-serif;
+    font-family: harmonia, Arial, Helvetica, sans-serif;
 }
 
 @layer tailwind-base, primeng, tailwind-utilities;
-@import 'primeicons/primeicons.css';
+
 @import '../node_modules/primeng/resources/themes/lara-light-blue/theme.css';
 @import '../node_modules/primeng/resources/primeng.css';
 
@@ -18,3 +18,10 @@
 }
 
 @import '../src/assets/styles/reset.css';
+
+.wrap {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 30px);
+}
