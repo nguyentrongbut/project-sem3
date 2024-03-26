@@ -1,0 +1,47 @@
+<div class="relative z-20 w-full" style="min-height: 540px; height: calc(100vh - 240px)">
+    <header class="absolute inset-0 z-40 flex h-16 items-center px-8" style="border-bottom: 1px solid rgba(255, 255, 255, 0.2)">
+        <div>
+            <a routerLink="">
+                <img class="h-11 object-contain" src="../../../../assets/images/logo.png" alt="" />
+            </a>
+        </div>
+        <ul class="ml-auto flex">
+            <li><a href="#!" class="px-4 py-6 text-white">Condos</a></li>
+            <li><a href="#!" class="px-4 py-6 text-white">Project</a></li>
+            <li><a href="#!" class="px-4 py-6 text-white">About</a></li>
+        </ul>
+        <div>
+            <a href="#!" class="px-4 py-6 text-white">Login</a>
+        </div>
+    </header>
+    <div class="absolute left-0 right-0 top-0 z-30 h-full w-full" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); bottom: -80px"></div>
+    <div class="absolute left-0 top-0 h-full w-full">
+        <img class="h-full w-full object-cover" src="../../../../assets/images/home/cover_banner_style_d@2x.jpg" alt="Sem3" />
+    </div>
+    <div class="absolute left-0 top-0 z-40 flex h-full w-full items-center">
+        <div class="wrap">
+            <h1 class="mb-4 text-5xl font-medium text-white" style="font-family: rv-font2, Arial, Helvetica, sans-serif">Choose your favorite house</h1>
+            <form class="w-full" style="max-width: 851px">
+                <div class="flex gap-8">
+                    <h2 class="header-tab is-active" (click)="selectElement('element1')" [ngClass]="{ 'is-active': selectedElement === 'element1' }">Buy house</h2>
+                    <h2 class="header-tab" (click)="selectElement('element2')" [ngClass]="{ 'is-active': selectedElement === 'element2' }">Rent</h2>
+                </div>
+                <div class="relative mt-4 flex w-full items-center">
+                    <i class="zmdi zmdi-search absolute left-4" style="font-size: 26px; color: #30333a"></i>
+                    <input
+                        class="p h-12 w-full rounded-lg border-0 bg-white outline-none"
+                        style="padding: 0 156px 0 48px"
+                        type="text"
+                        placeholder="Search for real estate in Ho Chi Minh City area"
+                        autocomplete="disabled"
+                        spellcheck="false" />
+                    <button
+                        class="absolute right-1 top-1/2 h-10 -translate-y-1/2 rounded border-0 bg-red-500 text-white hover:bg-red-600"
+                        style="min-width: 140px; transition: all 0.3s ease-out">
+                        <span>Search</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

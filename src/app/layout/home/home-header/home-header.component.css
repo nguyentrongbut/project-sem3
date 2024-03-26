@@ -1,0 +1,17 @@
+.header-tab {
+    padding: 8px 0;
+    color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+    transition: color 0.2s ease-in;
+    font-weight: 500;
+}
+
+.header-tab:hover {
+    color: #fff;
+}
+
+.header-tab.is-active {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+

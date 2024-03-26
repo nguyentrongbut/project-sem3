@@ -6,11 +6,12 @@ import { HomeEstateRentComponent } from './home-estate-rent/home-estate-rent.com
 import { HomeEstateSaleComponent } from './home-estate-sale/home-estate-sale.component'
 import { HomeDetailComponent } from './home-detail/home-detail.component'
 import { HomeInfoComponent } from './home-info/home-info.component'
+import { HomeHeaderComponent } from './home-header/home-header.component'
 
 @Component({
     selector: 'app-home',
     standalone: true,
-    imports: [HomeSearchFilterComponent, HomeAboutComponent, HomeProjectComponent, HomeEstateRentComponent, HomeEstateSaleComponent, HomeDetailComponent, HomeInfoComponent],
+    imports: [HomeSearchFilterComponent, HomeAboutComponent, HomeProjectComponent, HomeEstateRentComponent, HomeEstateSaleComponent, HomeDetailComponent, HomeInfoComponent, HomeHeaderComponent],
     templateUrl: './home.component.html',
     styleUrl: './home.component.css',
 })
