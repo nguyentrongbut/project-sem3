@@ -13,7 +13,7 @@ import { SwiperContainer } from 'swiper/element'
 export class HomeProjectComponent implements OnInit {
     swiperElement = signal<SwiperContainer | null>(null)
     ngOnInit(): void {
-        const swiperElemConstructor = document.querySelector('swiper-container')
+        const swiperElemConstructor = document.querySelector('.swiper-project')
         const swiperOptions: SwiperOptions = {
             slidesPerView: 4,
             spaceBetween: 24,
@@ -21,8 +21,8 @@ export class HomeProjectComponent implements OnInit {
             breakpoints: {},
             navigation: {
                 enabled: true,
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+                nextEl: '.swiper-button-next-project',
+                prevEl: '.swiper-button-prev-project',
             },
         }
         Object.assign(swiperElemConstructor!, swiperOptions)
