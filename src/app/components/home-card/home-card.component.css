@@ -1,0 +1,9 @@
+article {
+  width: calc(33.33% - 24px);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px 0px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+article:hover {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
+}
