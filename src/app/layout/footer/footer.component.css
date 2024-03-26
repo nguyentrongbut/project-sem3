@@ -1,0 +1,16 @@
+.footer-text {
+    display: block;
+    font-size: 14px;
+    transition: color 0.2s;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-link {
+    transition: color 0.2s;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-link:hover,
+.footer-text:hover {
+    color: #fff;
+}
