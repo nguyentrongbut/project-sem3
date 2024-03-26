@@ -1,12 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import {ButtonModule} from "primeng/button";
-import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
-import {BrowserModule} from "@angular/platform-browser";
-import { RippleModule} from "primeng/ripple";
-import {PrimeNGConfig} from "primeng/api";
-import {MultiSelectModule} from "primeng/multiselect";
-import {FormsModule} from "@angular/forms";
+import {PrimeNGConfig} from "primeng/api";;
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 

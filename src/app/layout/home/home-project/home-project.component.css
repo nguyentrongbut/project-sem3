@@ -1,0 +1,20 @@
+swiper-container {
+    width: 2088px;
+    height: 450px;
+}
+
+swiper-slide {
+    width: 300px !important;
+}
+
+swiper-slide a:hover {
+    opacity: 0.9;
+}
+
+.swiper-button-next.swiper-button-disabled {
+    display: none;
+}
+
+.swiper-button-prev.swiper-button-disabled {
+    display: none;
+}
