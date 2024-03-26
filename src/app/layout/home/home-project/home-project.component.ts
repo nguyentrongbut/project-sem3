@@ -1,11 +1,13 @@
 import { SwiperOptions } from 'swiper/types'
 import { Component, CUSTOM_ELEMENTS_SCHEMA, OnInit, signal } from '@angular/core'
 import { SwiperContainer } from 'swiper/element'
+import { BtnNextSwiperComponent } from '../../../components/btn-next-swiper/btn-next-swiper.component'
+import { BtnPrevSwiperComponent } from '../../../components/btn-prev-swiper/btn-prev-swiper.component'
 
 @Component({
     selector: 'app-home-project',
     standalone: true,
-    imports: [],
+    imports: [BtnNextSwiperComponent, BtnPrevSwiperComponent],
     templateUrl: './home-project.component.html',
     styleUrl: './home-project.component.css',
     schemas: [CUSTOM_ELEMENTS_SCHEMA],

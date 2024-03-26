@@ -1,0 +1,25 @@
+swiper-container {
+    /* height: 350px; */
+}
+
+swiper-slide a:hover {
+    opacity: 0.9;
+}
+
+.swiper-button-next-rent,
+.swiper-button-prev-rent {
+    display: none;
+}
+
+.swiper-slider:hover .swiper-button-next-rent {
+    display: flex;
+}
+
+.swiper-slider:hover .swiper-button-prev-rent {
+    display: flex;
+}
+
+/* .swiper-button-next-rent.swiper-button-disabled,
+.swiper-button-prev-rent.swiper-button-disabled {
+    display: none;
+} */
