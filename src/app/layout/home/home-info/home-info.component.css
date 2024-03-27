@@ -1,0 +1,8 @@
+.home-info__heading {
+  color: #30333a;
+  font-family: rv-font2, Arial, Helvetica, sans-serif;
+}
+
+.home-info__heading:hover {
+  color: #c72528;
+}

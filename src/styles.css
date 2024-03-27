@@ -1,17 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import '../node_modules/primeng/resources/themes/lara-light-blue/theme.css';
-@import '../node_modules/primeng/resources/primeng.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@layer tailwind-base, primeng, tailwind-utilities;
-@layer tailwind-base {
-    @tailwind base;
-}
-
-@layer tailwind-utilities {
-    @tailwind components;
-    @tailwind utilities;
-}
 
 * {
     font-family: rv-font1, Arial, Helvetica, sans-serif;

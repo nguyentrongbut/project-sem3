@@ -1,0 +1,7 @@
+.swiper-button-next-about.swiper-button-disabled,
+.swiper-button-prev-about.swiper-button-disabled {
+  color: rgba(255,255, 255, 0.1);
+  cursor: auto;
+}
+
+

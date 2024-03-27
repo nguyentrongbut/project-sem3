@@ -3,10 +3,6 @@ import { RouterOutlet } from '@angular/router';
 import { FooterComponent } from './layout/footer/footer.component';
 
 
-interface City {
-  name: string,
-  code: string
-}
 
 @Component({
   selector: 'app-root',
